@@ -1,0 +1,14 @@
+# Main Config
+main:
+  # Essentially how many threads there will be
+  workers: 250
+
+  # The ID you want to start at from 0-8 million
+  startid: 5000000
+  # The ID you want to stop at from 0-8 million
+  stopid: 8200000
+
+# Webhook Config
+webhook:
+  # Put the webhook for your discord server here || Don't know what a webhook is? https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
+  webhook: "Replace this with your webhook (DONT REMOVE THE QUOTES)"
